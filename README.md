@@ -1,15 +1,15 @@
 
-# 🌤️ Weather Forecasting using Linear Regression
+#  Weather Forecasting using Linear Regression
 
 This project predicts the average temperature for the next 10 years using historical daily/monthly temperature data. It uses Linear Regression and visualizes the forecast using Plotly.
 
-## 📁 Files
+##  Files
 
 - `forecast_temperature.py` – Core Python script
 - `sample_temperature_data.csv` – Sample input dataset
 - `Weather_Forecast_10_Years.csv` – Output file (generated after running)
 
-## ▶️ How to Run
+## How to Run
 
 1. Install requirements:
    ```
@@ -22,12 +22,12 @@ This project predicts the average temperature for the next 10 years using histor
    forecast_temperature("sample_temperature_data.csv")
    ```
 
-## 📊 Output
+## Output
 
 - Forecasted temperature for the next 10 years (CSV)
 - Interactive Plotly graph of historical + forecasted trends
 
-## 📝 Dataset Format
+## Dataset Format
 
 CSV file must include:
 - A date/time column (e.g., `Date`, `Timestamp`)
